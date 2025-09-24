@@ -9,7 +9,7 @@ if (inicio === "nao") {
 } else {
 
   //primeiro mostra a tabela de heróis
-alert("Heróis disponíveis (1 - 22):\n\n" +
+alert("Heróis disponíveis (1 - 26):\n\n" +
 "1 - Homem de Ferro\n" +
 "2 - Capitão América\n" +
 "3 - Thor\n" +
@@ -31,10 +31,14 @@ alert("Heróis disponíveis (1 - 22):\n\n" +
 "19 - Groot\n" +
 "20 - Superman\n" +
 "21 - Batman\n" +
-"22 - Flash");
+"22 - Flash\n" +
+"23 - Mulher-Maravilha\n" +
+"24 - Aquaman\n" +
+"25 - Lanterna Verde\n" +
+"26 - Ciborgue");
 
 // Segunda parte
-alert("Heróis disponíveis (22 - 48):\n\n" +
+alert("Heróis disponíveis (27 - 52):\n\n" +
 "27 - Shazam\n" +
 "28 - Wolverine\n" +
 "29 - Deadpool\n" +
@@ -52,7 +56,15 @@ alert("Heróis disponíveis (22 - 48):\n\n" +
 "41 - Colossus\n" +
 "42 - Kitty Pryde\n" +
 "43 - Sr. Fantástico\n" +
-"44 - Mulher invisivel);
+"44 - Mulher Invisível\n" +
+"45 - Tocha Humana\n" +
+"46 - Coisa\n" +
+"47 - Arqueiro Noturno\n" +
+"48 - Jessica Jones\n" +
+"49 - Luke Cage\n" +
+"50 - Punho de Ferro\n" +
+"51 - Doutor Estranho Supremo\n" +
+"52 - Cavaleira da Lua");
 
 // Escolha do usuário
 let escolha = prompt("Digite o número do herói que você quer escolher (1 a 52):");
@@ -267,4 +279,3 @@ else {
 }
 // Mensagem final
 alert("obrigado por ultilizar a MarvelDex,Volte Sempre.")
-
