@@ -8,7 +8,7 @@ if (inicio === "nao") {
   alert("Fechando o sistema...");
 } else {
   //primeiro mostra a tabela de heróis
-  
+  let opcao = prompt(
   alert("Heróis disponíveis:\n\n" +
 "1 - Homem de Ferro\n" +
 "2 - Capitão América\n" +
@@ -61,7 +61,7 @@ if (inicio === "nao") {
 "49 - Luke Cage\n" +
 "50 - Punho de Ferro\n" +
 "51 - Doutor Estranho Supremo\n" +
-"52 - Cavaleira da Lua");
+"52 - Cavaleira da Lua"))
 // Depois pergunta o nome do herói
 const heroi = prompt("Digite o nome do herói exatamente como está na lista para ver informações")
 
