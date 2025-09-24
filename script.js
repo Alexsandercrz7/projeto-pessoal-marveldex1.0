@@ -7,9 +7,9 @@ const inicio = prompt("Bem vindos ao meu projeto pessoal marveldex\n\nDigite 'co
 if (inicio === "nao") {
   alert("Fechando o sistema...");
 } else {
+
   //primeiro mostra a tabela de heróis
-  let opcao = prompt(
-  alert("Heróis disponíveis:\n\n" +
+alert("Heróis disponíveis (1 - 26):\n\n" +
 "1 - Homem de Ferro\n" +
 "2 - Capitão América\n" +
 "3 - Thor\n" +
@@ -35,7 +35,10 @@ if (inicio === "nao") {
 "23 - Mulher-Maravilha\n" +
 "24 - Aquaman\n" +
 "25 - Lanterna Verde\n" +
-"26 - Ciborgue\n" +
+"26 - Ciborgue");
+
+// Segunda parte
+alert("Heróis disponíveis (27 - 52):\n\n" +
 "27 - Shazam\n" +
 "28 - Wolverine\n" +
 "29 - Deadpool\n" +
@@ -61,7 +64,65 @@ if (inicio === "nao") {
 "49 - Luke Cage\n" +
 "50 - Punho de Ferro\n" +
 "51 - Doutor Estranho Supremo\n" +
-"52 - Cavaleira da Lua"))
+"52 - Cavaleira da Lua");
+
+// Escolha do usuário
+let escolha = prompt("Digite o número do herói que você quer escolher (1 a 52):");
+
+// Mostrar nome baseado no número
+if (escolha == "1") alert("Você escolheu: Homem de Ferro");
+else if (escolha == "2") alert("Você escolheu: Capitão América");
+else if (escolha == "3") alert("Você escolheu: Thor");
+else if (escolha == "4") alert("Você escolheu: Hulk");
+else if (escolha == "5") alert("Você escolheu: Viúva Negra");
+else if (escolha == "6") alert("Você escolheu: Pantera Negra");
+else if (escolha == "7") alert("Você escolheu: Doutor Estranho");
+else if (escolha == "8") alert("Você escolheu: Homem-Aranha");
+else if (escolha == "9") alert("Você escolheu: Princesa Maria Vitória");
+else if (escolha == "10") alert("Você escolheu: Tempestade");
+else if (escolha == "11") alert("Você escolheu: Homem-Formiga");
+else if (escolha == "12") alert("Você escolheu: Feiticeira Escarlate");
+else if (escolha == "13") alert("Você escolheu: Visão");
+else if (escolha == "14") alert("Você escolheu: Gavião Arqueiro");
+else if (escolha == "15") alert("Você escolheu: Drax");
+else if (escolha == "16") alert("Você escolheu: Gamora");
+else if (escolha == "17") alert("Você escolheu: Senhor das Estrelas");
+else if (escolha == "18") alert("Você escolheu: Rocket Raccoon");
+else if (escolha == "19") alert("Você escolheu: Groot");
+else if (escolha == "20") alert("Você escolheu: Superman");
+else if (escolha == "21") alert("Você escolheu: Batman");
+else if (escolha == "22") alert("Você escolheu: Flash");
+else if (escolha == "23") alert("Você escolheu: Mulher-Maravilha");
+else if (escolha == "24") alert("Você escolheu: Aquaman");
+else if (escolha == "25") alert("Você escolheu: Lanterna Verde");
+else if (escolha == "26") alert("Você escolheu: Ciborgue");
+else if (escolha == "27") alert("Você escolheu: Shazam");
+else if (escolha == "28") alert("Você escolheu: Wolverine");
+else if (escolha == "29") alert("Você escolheu: Deadpool");
+else if (escolha == "30") alert("Você escolheu: Cavaleiro da Lua");
+else if (escolha == "31") alert("Você escolheu: Capitã Marvel");
+else if (escolha == "32") alert("Você escolheu: Homem-Aranha 2099");
+else if (escolha == "33") alert("Você escolheu: Gambit");
+else if (escolha == "34") alert("Você escolheu: Hércules");
+else if (escolha == "35") alert("Você escolheu: Homem de Ferro 2020");
+else if (escolha == "36") alert("Você escolheu: Miss Marvel (Kamala Khan)");
+else if (escolha == "37") alert("Você escolheu: Falcão");
+else if (escolha == "38") alert("Você escolheu: Gaviã Negra");
+else if (escolha == "39") alert("Você escolheu: Homem de Gelo");
+else if (escolha == "40") alert("Você escolheu: Noturno");
+else if (escolha == "41") alert("Você escolheu: Colossus");
+else if (escolha == "42") alert("Você escolheu: Kitty Pryde");
+else if (escolha == "43") alert("Você escolheu: Sr. Fantástico");
+else if (escolha == "44") alert("Você escolheu: Mulher Invisível");
+else if (escolha == "45") alert("Você escolheu: Tocha Humana");
+else if (escolha == "46") alert("Você escolheu: Coisa");
+else if (escolha == "47") alert("Você escolheu: Arqueiro Noturno");
+else if (escolha == "48") alert("Você escolheu: Jessica Jones");
+else if (escolha == "49") alert("Você escolheu: Luke Cage");
+else if (escolha == "50") alert("Você escolheu: Punho de Ferro");
+else if (escolha == "51") alert("Você escolheu: Doutor Estranho Supremo");
+else if (escolha == "52") alert("Você escolheu: Cavaleira da Lua");
+else alert("Opção inválida!");
 // Depois pergunta o nome do herói
 const heroi = prompt("Digite o nome do herói exatamente como está na lista para ver informações")
 
