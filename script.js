@@ -9,7 +9,7 @@ if (inicio === "nao") {
 } else {
 
   //primeiro mostra a tabela de heróis
-alert("Heróis disponíveis (1 - 26):\n\n" +
+alert("Heróis disponíveis (1 - 22):\n\n" +
 "1 - Homem de Ferro\n" +
 "2 - Capitão América\n" +
 "3 - Thor\n" +
@@ -38,7 +38,7 @@ alert("Heróis disponíveis (1 - 26):\n\n" +
 "26 - Ciborgue");
 
 // Segunda parte
-alert("Heróis disponíveis (27 - 52):\n\n" +
+alert("Heróis disponíveis (22 - 48):\n\n" +
 "27 - Shazam\n" +
 "28 - Wolverine\n" +
 "29 - Deadpool\n" +
@@ -279,3 +279,4 @@ else {
 }
 // Mensagem final
 alert("obrigado por ultilizar a MarvelDex,Volte Sempre.")
+
