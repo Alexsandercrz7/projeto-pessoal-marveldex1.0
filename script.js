@@ -6,8 +6,9 @@ const inicio = prompt("Bem vindos ao meu projeto pessoal marveldex\n\nDigite 'co
 
 if (inicio === "nao") {
   alert("Fechando o sistema...");
-} else if (inicio === "continuar") {
-  const heroi = prompt("Digite o nome do herói que deseja ver informações:")
+} else {
+  //primeiro mostra a tabela de heróis
+  
   alert("Heróis disponíveis:\n\n" +
 "1 - Homem de Ferro\n" +
 "2 - Capitão América\n" +
@@ -61,6 +62,8 @@ if (inicio === "nao") {
 "50 - Punho de Ferro\n" +
 "51 - Doutor Estranho Supremo\n" +
 "52 - Cavaleira da Lua");
+// Depois pergunta o nome do herói
+const heroi = prompt("Digite o nome do herói exatamente como está na lista para ver informações")
 
   if (heroi === "Homem de Ferro") {
     alert("Homem de Ferro\nNome real: Tony Stark\nNasceu em: Long Island, Nova York\nOrigem: Gênio bilionário que criou uma armadura de alta tecnologia\nPoderes: armaduras tecnológicas, inteligência superior")
@@ -78,10 +81,8 @@ if (inicio === "nao") {
     alert("Princesa Maria Vitória\nA heroína real que me salva todos os dias e cuida de mim com amor.")
   } else {
     alert("Herói não encontrado no MarvelDex básico.")
+  } 
   }
-} else {
-  alert("Opção inválida.")
-}
   if (heroi === "Superman") {
     alert("Superman\nNome real: Clark Kent (Kal-El)\nNasceu em: Krypton\nOrigem: Último filho de Krypton enviado à Terra\nPoderes: superforça, voo, visão de calor, invulnerabilidade")
   } else if (heroi === "Batman") {
